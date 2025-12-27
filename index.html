@@ -1,251 +1,196 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mickael Silva | Portfólio </title>
     <link rel="shortcut icon" href="img/icons8-nerd-32.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-        ScrollReveal.debug = true;
-    </script>
 
     <link rel="stylesheet" href="style.css">
-
-    <title>Potifólio</title>
-
 </head>
 
 <body>
 
-    <div class="|">
-        <header id="home">
-            <body onclick="closeMenu(event)">
-                <div class="menu-btn" onclick="toggleMenu(event)">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-                <nav class="menu">
-                    <a href="#home">Home</a>
-                    <a href="#formacao">Formação</a>
-                    <a href="#contato">Contato</a>
-                </nav>
-                <h5 class="texto_ola">Olá, me chamo Mickael Silva <img class="mao_acenando"
-                        src="img/mao-acenando-unscreen.gif" alt="mao acenando"></h5>
-                <img src="img/minha foto.jpg" alt="minha foto" class="minha_foto">
-                <p class="apresentacao">
-                    Atualmente, estou finalizando minha graduação em Análise e Desenvolvimento de Sistemas e possuo cinco
-                    anos de experiência na área de TI. Atuo como Analista de Suporte na Secretaria de Educação do Estado,
-                    onde forneço suporte técnico abrangente a usuários, Coordenadorias Regionais e escolas.
-                </p>
-        </header>
-        <main class="main">
-            <div class="formacao">
-                <h4 id="formacao" class="texto_p">Formação Acadêmica:</h4>
-                <p class="infos_formacao">Ensino Superior - Em Andamento</p>
-                <p class="infos_formacao">Instituição: Uniasselvi</p>
-                <p class="infos_formacao">Conclusão: 12/2025</p>
-            </div>
-            <div class="certificados">
-                <h4 class="texto_p">Habilidades:</h4>
-                <div class="accordion" id="accordionExample">
-                    <div class="card">
-                        <div class="card-header" id="headingOne">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
-                                    aria-expanded="true" aria-controls="collapseOne">
-                                    Active Directory <img class="gif_clicando" src="img/gif clicando.gif" alt="gif">
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                <li>Criação e exclusão de usuários: Gerenciamento do ciclo de vida das contas de usuário,
-                                    desde a criação até a exclusão ou desativação.</li>
-                                <li>Gerenciamento de permissões: Definição de quem pode acessar quais recursos na rede,
-                                    garantindo a segurança e a confidencialidade dos dados.</li>
-                                <li>Criação e organização de pastas: Estruturação do armazenamento de arquivos na rede,
-                                    facilitando o acesso e a organização dos dados.</li>
-                                <li>Suporte técnico: Auxílio aos usuários na resolução de problemas relacionados ao AD e
-                                    outros recursos da rede.</li>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingTwo">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Redes e Infraestrutura <img class="gif_clicando" src="img/gif clicando.gif" alt="gif">
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body">
-                                <li>Configuração de switches: Experiência na configuração e gerenciamento de switches de
-                                    rede, incluindo VLANs, e outras funcionalidades.</li>
-                                <li>Configuração de roteadores Wi-Fi: Conhecimento em configuração e gerenciamento de
-                                    roteadores Wi-Fi, incluindo segurança, e outras funcionalidades.</li>
-                                <li>Estrutura lógica de redes: Domínio dos conceitos de redes, incluindo protocolos de
-                                    roteamento, endereçamento IP e topologias de rede.</li>
-                                <li>Cabeamento de rede: Experiência em instalação e manutenção de cabeamento de rede.</li>
-                                <li>Conhecimento em segurança de redes.</li>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingThree">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Telefones VOIPs <img class="gif_clicando" src="img/gif clicando.gif" alt="gif">
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                <li>Criação de ramais: Experiência na criação e configuração de ramais VoIP, incluindo
-                                    atribuição de números, definição de permissões e configuração de desvios de chamadas.
-                                </li>
-                                <li>Criação de extensões: Conhecimento em criação e configuração de extensões VoIP,
-                                    incluindo softphones, telefones IP e outros dispositivos.</li>
-                                <li>Webphone: Experiência em configuração e utilização de webphones, permitindo a realização
-                                    de chamadas VoIP diretamente do navegador.</li>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingFour">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    File Server Google Drive <img class="gif_clicando" src="img/gif clicando.gif" alt="gif">
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                            data-parent="#accordionExample">
-                            <div class="card-body">
-                                <li>Gerenciamento de permissões: Experiência na atribuição e gerenciamento de permissões de
-                                    acesso a arquivos e pastas no Google Drive, incluindo permissões de visualização,
-                                    comentário e edição.</li>
-                                <li>Criação e exclusão de pastas: Habilidade na criação e exclusão de pastas no Google
-                                    Drive, organizando arquivos e dados de forma lógica e eficiente.</li>
-                                <li>Permissão a usuários: Conhecimento em conceder e revogar permissões de acesso a usuários
-                                    específicos em arquivos e pastas no Google Drive, garantindo a segurança e a
-                                    confidencialidade dos dados.</li>
-                                <li>Conhecimento em compartilhamento de arquivos e pastas no Google Drive com links públicos
-                                    ou privados.</li>
-                                <li>Experiência em configuração de pastas compartilhadas no Google Drive para colaboração em
-                                    equipe.</li>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingFive">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        Impressoras <img class="gif_clicando" src="img/gif clicando.gif" alt="gif">
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <li>Instalação via rede: Experiência na instalação e configuração de impressoras em
-                                        rede, incluindo atribuição de endereços IP, configuração de filas de impressão e
-                                        compartilhamento de impressoras.</li>
-                                    <li>Instalação via Wi-Fi: Conhecimento em instalação e configuração de impressoras
-                                        Wi-Fi, incluindo conexão à rede sem fio, configuração de segurança e impressão
-                                        móvel.</li>
-                                    <li>Instalação de drivers de impressão: Habilidade na instalação e configuração de
-                                        drivers de impressão para diferentes sistemas operacionais e modelos de impressoras.
-                                    </li>
-                                    <li>Manutenção de toner: Experiência em manutenção de toners, incluindo substituição,
-                                        limpeza e solução de problemas relacionados a qualidade de impressão.</li>
-                                    <li>Manutenção em atolamento de papel: Capacidade de solucionar problemas de atolamento
-                                        de papel em impressoras, identificando a causa e realizando a remoção do papel de
-                                        forma segura.</li>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="headingSix">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                            Desenvolvimento Web <img class="gif_clicando" src="img/gif clicando.gif" alt="gif">
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
-                                    data-parent="#accordionExample">
-                                    <div class="card-body">
-                                        <li>Criação de sites: Criação de sites , desde o design até a implementação,
-                                            utilizando HTML, CSS e JavaScript.</li>
-                                        <li>Sites responsivos: Habilidade na criação de sites responsivos, que se adaptam a
-                                            diferentes dispositivos e tamanhos de tela, utilizando técnicas de design
-                                            responsivo e frameworks CSS como Bootstrap ou Foundation.</li>
-                                        <li>Sites interativos com JavaScript: Conhecimento em JavaScript para adicionar
-                                            interatividade e dinamismo aos sites.</li>
-                                    </div>
-                                </div>
-                            </div>
-        </main>
-        <footer>
-            <h3 id="contato" class="texto_p contato_texto">Contato</h3>
+    <nav class="navbar fixed-top px-3">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#menuMKS">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <div class="container">
-                <div class="whats">
-                    <h4 class="whats_escrita texto_p" title="Meu WhatsApp">WhatsApp</h4>
-                    <div class="foto_whats caixa">
-                        <div> <a href="https://wa.me/5551983223243">
-                                <img src="img/image whats.jpeg " alt="whats" class="caixa">
+            <button id="themeToggler" class="btn-theme shadow-sm">
+                <i class="bi bi-moon-stars-fill"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="menuMKS">
+        <div class="offcanvas-header border-bottom border-secondary-subtle">
+            <h5 class="offcanvas-title fw-bold text-mks">Navegação</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav gap-2">
+                <li class="nav-item"><a class="nav-link rounded px-3" href="#home"><i
+                            class="bi bi-house me-2"></i>Início</a></li>
+                <li class="nav-item"><a class="nav-link rounded px-3" href="#habilidades"><i
+                            class="bi bi-cpu me-2"></i>Habilidades</a></li>
+                <li class="nav-item"><a class="nav-link rounded px-3" href="#contato"><i
+                            class="bi bi-chat-dots me-2"></i>Contato</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-app mx-auto">
+        <header id="home" class="section-padding text-center">
+            <div class="logo-area mx-auto mb-4 pulse-animation">
+                <img src="img/logoMKS.png" alt="MKS Logo" class="logo-img">
+            </div>
+
+            <div class="reveal-content">
+                <h5 class="texto-ola">
+                    Olá, me chamo Mickael Silva
+                    <span class="emoji-wrapper">
+                        <img src="img/mao-acenando-unscreen.gif" alt="Acenando" class="emoji-mao">
+                    </span>
+                </h5>
+
+                <div class="perfil-container my-4 reveal-photo">
+                    <img src="img/minha foto.jpg" alt="Mickael Silva" class="minha-foto">
+                </div>
+
+                <p class="apresentacao px-4">
+                    <strong>Analista de Sistemas & Dev Full-stack</strong> 💻<br><br>
+                    Fundador da <strong>MKS Tech Solutions</strong>, unindo expertise técnica e comercial para oferecer
+                    o melhor em hardware Apple, notebooks e desktops de alta performance.<br><br>
+                    Especialista em infraestrutura de TI, ofereço serviços estratégicos de suporte em redes, manutenção
+                    avançada e desenvolvimento web focado na transformação digital de pequenas empresas. 🚀
+                </p>
+            </div>
+        </header>
+
+        <main id="habilidades" class="section-padding px-3">
+            <h4 class="titulo-sessao mb-4">Especialidades Técnicas <span class="divider"></span></h4>
+
+            <div class="accordion accordion-mks" id="accordionSkills">
+
+                <div class="accordion-item mb-3 reveal-up">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#ad">
+                            <i class="bi bi-microsoft me-2 text-primary"></i> Active Directory
+                        </button>
+                    </h2>
+                    <div id="ad" class="accordion-collapse collapse" data-bs-parent="#accordionSkills">
+                        <div class="accordion-body">
+                            Gerenciamento completo de usuários e grupos (criação, edição e exclusão), controle de
+                            permissões de pastas (NTFS), implementação de GPOs e suporte especializado em infraestrutura
+                            Windows Server.
                         </div>
-                    </div>
-                    <div class="download">
-                        <button type="button" class="download button ">⬆ Saiba Mais ⬆</button>
-                        </a>
                     </div>
                 </div>
-                <div class="cv">
-                    <h4 class="cv_escrita texto_p" title="Meu Currículo">Currículo</h4>
-                    <div class="foto_cv caixa">
-                        <div><a href="curriculo/CV_Mickael_Silva.pdf" download="CV_Mickael_Silva.pdf">
-                                <img src="img/image cv.png" alt="cv" class="caixa">
+
+                <div class="accordion-item mb-3 reveal-up">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#redes">
+                            <i class="bi bi-diagram-3 me-2 text-info"></i> Redes & Infraestrutura
+                        </button>
+                    </h2>
+                    <div id="redes" class="accordion-collapse collapse" data-bs-parent="#accordionSkills">
+                        <div class="accordion-body">
+                            Configuração e monitoramento de switches e roteadores Wi-Fi, domínio de protocolos de rede,
+                            endereçamento IP (IPv4), sub-redes e manutenção de cabeamento estruturado.
                         </div>
                     </div>
-                    <div class="download">
-                        <button type="button" class="download button ">⬆ Saiba Mais ⬆ </button>
-                        </a>
+                </div>
+
+                <div class="accordion-item mb-3 reveal-up">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#voip">
+                            <i class="bi bi-telephone-outbound me-2 text-warning"></i> Telefonia VoIP
+                        </button>
+                    </h2>
+                    <div id="voip" class="accordion-collapse collapse" data-bs-parent="#accordionSkills">
+                        <div class="accordion-body">
+                            Administração de centrais telefônicas IP, criação e manutenção de ramais, extensões e
+                            configuração de Webphones/Softphones para operações de atendimento.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mb-3 reveal-up">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#drive">
+                            <i class="bi bi-google me-2 text-success"></i> File Server Google Drive
+                        </button>
+                    </h2>
+                    <div id="drive" class="accordion-collapse collapse" data-bs-parent="#accordionSkills">
+                        <div class="accordion-body">
+                            Especialista em migração e gestão de Shared Drives (Drives Compartilhados), controle
+                            rigoroso de níveis de acesso, organização de taxonomia de pastas e auditoria de segurança de
+                            dados em nuvem.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mb-3 reveal-up">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#printer">
+                            <i class="bi bi-printer me-2 text-danger"></i> Suporte a Impressoras
+                        </button>
+                    </h2>
+                    <div id="printer" class="accordion-collapse collapse" data-bs-parent="#accordionSkills">
+                        <div class="accordion-body">
+                            Instalação física e lógica de impressoras em rede e Wi-Fi, configuração avançada de drivers,
+                            mapeamento para usuários.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mb-3 reveal-up">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#dev">
+                            <i class="bi bi-code-slash me-2 text-mks"></i> Desenvolvimento Web
+                        </button>
+                    </h2>
+                    <div id="dev" class="accordion-collapse collapse" data-bs-parent="#accordionSkills">
+                        <div class="accordion-body">
+                            Desenvolvimento de aplicações ponta a ponta, unindo interfaces modernas e responsivas (Front-end) a sistemas robustos e seguros (Back-end). Especialista em transformar ideias em plataformas funcionais, integrando bancos de dados e APIs para otimizar processos e a experiência do usuário.
+                        </div>
                     </div>
                 </div>
             </div>
-            <p class="copyright">Copyright © 2025 MKS Tech Solutions.</p>
+        </main>
+
+        <footer id="contato" class="section-padding text-center">
+            <h4 class="titulo-sessao mb-4">Contato</h4>
+            <div class="d-flex flex-wrap justify-content-center gap-3 px-3">
+                <a href="https://wa.me/555132884938" target="_blank" class="btn-card">
+                    <img src="img/image whats.jpeg" alt="WhatsApp" class="btn-icon">
+                    <span>WhatsApp</span>
+                </a>
+                <a href="curriculo/CV_Mickael_Silva.pdf" download class="btn-card">
+                    <img src="img/image cv.png" alt="Currículo" class="btn-icon">
+                    <span>Currículo</span>
+                </a>
+            </div>
+            <p class="copyright mt-5 opacity-50">&copy; 2026 MKS Tech Solutions. Todos os direitos reservados. </p>
         </footer>
     </div>
 
-
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="javinha.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-
 </body>
 
 </html>
